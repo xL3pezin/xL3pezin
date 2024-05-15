@@ -1,1 +1,1 @@
-<img src="https://www.example.com/images/dinosaur.jpg" />
+<img src="https://www.pngwing.com/en/free-png-kprve" />
