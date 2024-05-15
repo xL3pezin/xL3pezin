@@ -1,11 +1,33 @@
-const avanca = document.querySelectorAll('.btn-proximo');
+corpo {
+    cor de fundo :  # 1D4221 ;
+    cor branca ;
+    família de fontes :  "Bai Jamjuree" , sem serifa;
+    exibição : flexível;
+    justificar-conteúdo : centro;
+    alinhar itens : centro;
+    altura :  700px ;​
+    margem :  0 ;
+}
 
-avanca.forEach(button => {
-    button.addEventListener('click', function(){
-        const atual = document.querySelector('.ativo');
-        const proximoPasso = 'passo-' + this.getAttribute('data-proximo');
+botão {
+    cor de fundo :  # 64A712 ;
+    cor branca ;
+    família de fontes :  "Bai Jamjuree" , sem serifa;
+}
 
-        atual.classList.remove('ativo');
-        document.getElementById(proximoPasso).classList.add('ativo');
-    })
-})
+. etapa {
+    Mostrar nenhum ;
+}
+
+.passo.ativo {
+    exibição : bloco;
+}
+
+principal {
+    alinhamento de texto : centro;
+    largura máxima :  90 % ;
+}
+
+imagem {
+    largura máxima :  90 % ;
+}
